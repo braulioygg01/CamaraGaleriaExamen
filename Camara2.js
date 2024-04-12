@@ -31,9 +31,8 @@ export default function App() {
       aspect: [4, 3],
       quality: 1,
     });
-    if (!result.cancelled && result.assets && result.assets.length > 0) {
-      // Usamos el primer elemento de assets ya que solo se selecciona una imagen
-      setCapturedImage(result.assets[0].uri);
+    if (!result.cancelled) {
+      setCapturedImage(result.uri);
     }
   };
   if (hasPermission === null) {

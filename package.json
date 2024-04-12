@@ -9,10 +9,17 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "deprecated-react-native-prop-types": "^5.0.0",
     "expo": "~50.0.14",
-    "expo-status-bar": "~1.11.1",
+    "expo-barcode-scanner": "^12.5.3",
+    "expo-camera": "^13.2.0",
+    "expo-image-picker": "^14.3.2",
+    "expo-status-bar": "^1.6.0",
+    "prop-types": "^15.8.1",
     "react": "18.2.0",
-    "react-native": "0.73.6"
+    "react-native": "0.73.6",
+    "react-native-camera": "^4.2.1",
+    "react-native-camera-kit": "^13.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
